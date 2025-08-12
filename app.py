@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-# Your OpenWeatherMap API key
+# OpenWeatherMap API key
 API_KEY = 'e83f82cbf0461de3f05e40ccc0335bb2'
 BASE_URL = "http://api.openweathermap.org/data/2.5"
 
@@ -109,7 +109,7 @@ def get_weather_by_coords(lat, lon):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
-# 🔧 FIXED FOR RENDER DEPLOYMENT
+#  FOR RENDER DEPLOYMENT
 if __name__ == '__main__':
     # Get port from environment variable 
     port = int(os.environ.get('PORT', 5000))
