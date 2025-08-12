@@ -1,15 +1,14 @@
 :root {
-    /* Deep Space Theme */
-    --primary-gradient: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
-    --secondary-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
-    --success-gradient: linear-gradient(135deg, #00b09b 0%, #96c93d 100%);
-    --warning-gradient: linear-gradient(135deg, #ff9966 0%, #ff5e62 100%);
-    --card-bg: rgba(23, 37, 61, 0.4);
-    --card-border: rgba(255, 255, 255, 0.15);
-    --text-primary: #e6f1ff;
-    --text-secondary: rgba(230, 241, 255, 0.75);
-    --shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.3);
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    --warning-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    --card-bg: rgba(255, 255, 255, 0.15);
+    --card-border: rgba(255, 255, 255, 0.2);
+    --text-primary: #ffffff;
+    --text-secondary: rgba(255, 255, 255, 0.85);
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.15);
     --border-radius: 20px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
