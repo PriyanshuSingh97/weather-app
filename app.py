@@ -109,5 +109,9 @@ def get_weather_by_coords(lat, lon):
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+# 🔧 FIXED FOR RENDER DEPLOYMENT
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Get port from environment variable 
+    port = int(os.environ.get('PORT', 5000))
+    # Disable debug mode in production
+    app.run(host='0.0.0.0', port=port, debug=False)
